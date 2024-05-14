@@ -1,0 +1,13 @@
+
+--- AllReducer 搜索到 2处, 2文件 ---
+allreducer in allreducer.py : class AllReducer():
+distributed_optimizer._DistributedOptimizer.__init__ in distributed_optimizer.py :         self._allreducer = ar.AllReducer(named_parameters, self._lock, self._key_lock, compressor, sparse=self._sparse,
+
+--- _DistributedOptimizer 搜索到 2处, 1文件 ---
+distributed_optimizer in distributed_optimizer.py : class _DistributedOptimizer(torch.optim.Optimizer):
+distributed_optimizer.DistributedOptimizer in distributed_optimizer.py :                dict(_DistributedOptimizer.__dict__))
+
+--- DistributedOptimizer 搜索到 3处, 3文件 ---
+distributed_optimizer in distributed_optimizer.py : def DistributedOptimizer(optimizer, named_parameters=None, compression=NoneCompressor, is_sparse=False, err_handler=None, layerwise_times=None, sigma_scale=2.5, density=0.1, norm_clip=None, writer=None):
+gtopk_trainer.robust_ssgd in gtopk_trainer.py :     optimizer = dopt.DistributedOptimizer(trainer.optimizer, trainer.net.named_parameters(), 
+horovod_trainer.ssgd_with_horovod in horovod_trainer.py :     optimizer = hvd.DistributedOptimizer(trainer.optimizer, named_parameters=trainer.net.named_parameters())

@@ -1,0 +1,285 @@
+Date : 2024-05-14 18:15:03
+Directory : e:\LocalSoftware\share\pybind11-2.11.1
+Total : 220 files,  44700 codes, 6183 comments, 10594 blanks, all 61477 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| C++              |         92 |     23,901 |      4,670 |      4,118 |     32,689 |
+| Python           |         65 |     10,333 |        659 |      2,890 |     13,882 |
+| reStructuredText |         32 |      7,679 |        658 |      3,081 |     11,418 |
+| YAML             |         15 |      1,394 |        177 |        367 |      1,938 |
+| XML              |          2 |        854 |          0 |          2 |        856 |
+| Markdown         |          3 |        313 |          6 |        104 |        423 |
+| toml             |          2 |         89 |          0 |         14 |        103 |
+| Properties       |          1 |         39 |          0 |          5 |         44 |
+| JSON             |          1 |         32 |          0 |          1 |         33 |
+| Shell Script     |          1 |         26 |         13 |          6 |         45 |
+| Ini              |          3 |         22 |          0 |          3 |         25 |
+| pip requirements |          2 |         15 |          0 |          2 |         17 |
+| CSS              |          1 |          3 |          0 |          1 |          4 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                        | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                           |        220 |     44,700 |      6,183 |     10,594 |     61,477 |
+| . (Files)                                                                                   |         10 |        628 |         84 |        153 |        865 |
+| .github                                                                                     |         14 |      1,561 |        123 |        428 |      2,112 |
+| .github (Files)                                                                             |          5 |        322 |          7 |        101 |        430 |
+| .github\ISSUE_TEMPLATE                                                                      |          2 |         64 |          0 |          7 |         71 |
+| .github\matchers                                                                            |          1 |         32 |          0 |          1 |         33 |
+| .github\workflows                                                                           |          6 |      1,143 |        116 |        319 |      1,578 |
+| docs                                                                                        |         37 |      8,578 |        830 |      3,153 |     12,561 |
+| docs (Files)                                                                                |         17 |      4,902 |        449 |      1,733 |      7,084 |
+| docs\_static                                                                                |          1 |          3 |          0 |          1 |          4 |
+| docs\_static\css                                                                            |          1 |          3 |          0 |          1 |          4 |
+| docs\advanced                                                                               |         18 |      3,668 |        380 |      1,416 |      5,464 |
+| docs\advanced (Files)                                                                       |          6 |      2,132 |        232 |        828 |      3,192 |
+| docs\advanced\cast                                                                          |          8 |        959 |         77 |        323 |      1,359 |
+| docs\advanced\pycpp                                                                         |          4 |        577 |         71 |        265 |        913 |
+| docs\cmake                                                                                  |          1 |          5 |          1 |          3 |          9 |
+| include                                                                                     |         31 |     13,658 |      2,975 |      2,380 |     19,013 |
+| include\pybind11                                                                            |         31 |     13,658 |      2,975 |      2,380 |     19,013 |
+| include\pybind11 (Files)                                                                    |         20 |      9,557 |      1,928 |      1,661 |     13,146 |
+| include\pybind11\detail                                                                     |          7 |      3,100 |        893 |        515 |      4,508 |
+| include\pybind11\eigen                                                                      |          3 |        910 |        144 |        188 |      1,242 |
+| include\pybind11\stl                                                                        |          1 |         91 |         10 |         16 |        117 |
+| pybind11                                                                                    |          5 |        461 |         38 |        132 |        631 |
+| tests                                                                                       |        118 |     19,685 |      2,115 |      4,306 |     26,106 |
+| tests (Files)                                                                               |        106 |     18,872 |      2,066 |      4,096 |     25,034 |
+| tests\extra_python_package                                                                  |          2 |        233 |          2 |         58 |        293 |
+| tests\extra_setuptools                                                                      |          2 |        122 |          2 |         29 |        153 |
+| tests\test_cmake_build                                                                      |          3 |         28 |          0 |         12 |         40 |
+| tests\test_embed                                                                            |          5 |        430 |         45 |        111 |        586 |
+| tools                                                                                       |          5 |        129 |         18 |         42 |        189 |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                    | language         | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| e:\LocalSoftware\share\pybind11-2.11.1\.appveyor.yml                                        | YAML             |         35 |          0 |          1 |         36 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.cmake-format.yaml                                   | YAML             |         31 |         28 |         15 |         74 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\CONTRIBUTING.md                              | Markdown         |        300 |          0 |         89 |        389 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\ISSUE_TEMPLATE\bug-report.yml                | YAML             |         56 |          0 |          6 |         62 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\ISSUE_TEMPLATE\config.yml                    | YAML             |          8 |          0 |          1 |          9 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\dependabot.yml                               | YAML             |          6 |          1 |          1 |          8 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\labeler.yml                                  | YAML             |          7 |          0 |          2 |          9 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\labeler_merged.yml                           | YAML             |          3 |          0 |          1 |          4 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\matchers\pylint.json                         | JSON             |         32 |          0 |          1 |         33 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\pull_request_template.md                     | Markdown         |          6 |          6 |          8 |         20 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\workflows\ci.yml                             | YAML             |        842 |         89 |        235 |      1,166 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\workflows\configure.yml                      | YAML             |         68 |          7 |         18 |         93 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\workflows\format.yml                         | YAML             |         45 |          6 |         10 |         61 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\workflows\labeler.yml                        | YAML             |         22 |          0 |          4 |         26 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\workflows\pip.yml                            | YAML             |         82 |          7 |         26 |        115 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.github\workflows\upstream.yml                       | YAML             |         84 |          7 |         26 |        117 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.pre-commit-config.yaml                              | YAML             |        102 |         32 |         20 |        154 |
+| e:\LocalSoftware\share\pybind11-2.11.1\.readthedocs.yml                                     | YAML             |          3 |          0 |          1 |          4 |
+| e:\LocalSoftware\share\pybind11-2.11.1\README.rst                                           | reStructuredText |        130 |         12 |         39 |        181 |
+| e:\LocalSoftware\share\pybind11-2.11.1\SECURITY.md                                          | Markdown         |          7 |          0 |          7 |         14 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\_static\css\custom.css                          | CSS              |          3 |          0 |          1 |          4 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\cast\chrono.rst                        | reStructuredText |         62 |          2 |         18 |         82 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\cast\custom.rst                        | reStructuredText |         68 |          5 |         21 |         94 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\cast\eigen.rst                         | reStructuredText |        229 |         13 |         69 |        311 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\cast\functional.rst                    | reStructuredText |         74 |          9 |         27 |        110 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\cast\index.rst                         | reStructuredText |         31 |          2 |         11 |         44 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\cast\overview.rst                      | reStructuredText |        139 |          9 |         23 |        171 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\cast\stl.rst                           | reStructuredText |        164 |         19 |         67 |        250 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\cast\strings.rst                       | reStructuredText |        192 |         18 |         87 |        297 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\classes.rst                            | reStructuredText |        904 |        102 |        330 |      1,336 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\embedding.rst                          | reStructuredText |        168 |         14 |         81 |        263 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\exceptions.rst                         | reStructuredText |        296 |         20 |         86 |        402 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\functions.rst                          | reStructuredText |        394 |         54 |        167 |        615 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\misc.rst                               | reStructuredText |        263 |         28 |        110 |        401 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\pycpp\index.rst                        | reStructuredText |          9 |          1 |          4 |         14 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\pycpp\numpy.rst                        | reStructuredText |        311 |         24 |        121 |        456 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\pycpp\object.rst                       | reStructuredText |        158 |         32 |         97 |        287 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\pycpp\utilities.rst                    | reStructuredText |         99 |         14 |         43 |        156 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\advanced\smart_ptrs.rst                         | reStructuredText |        107 |         14 |         54 |        175 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\basics.rst                                      | reStructuredText |        174 |         33 |        101 |        308 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\benchmark.py                                    | Python           |         74 |          0 |         14 |         88 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\benchmark.rst                                   | reStructuredText |         53 |         16 |         27 |         96 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\changelog.rst                                   | reStructuredText |      2,040 |         15 |        772 |      2,827 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\classes.rst                                     | reStructuredText |        347 |         51 |        158 |        556 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\cmake\index.rst                                 | reStructuredText |          5 |          1 |          3 |          9 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\compiling.rst                                   | reStructuredText |        402 |         53 |        187 |        642 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\conf.py                                         | Python           |         92 |        184 |         93 |        369 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\faq.rst                                         | reStructuredText |        203 |         18 |         88 |        309 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\index.rst                                       | reStructuredText |         29 |          7 |         13 |         49 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\installing.rst                                  | reStructuredText |         62 |         10 |         34 |        106 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\limitations.rst                                 | reStructuredText |         54 |          0 |         19 |         73 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\pybind11_vs_boost_python1.svg                   | XML              |        427 |          0 |          1 |        428 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\pybind11_vs_boost_python2.svg                   | XML              |        427 |          0 |          1 |        428 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\reference.rst                                   | reStructuredText |         43 |         37 |         51 |        131 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\release.rst                                     | reStructuredText |         75 |          3 |         22 |        100 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\requirements.txt                                | pip requirements |          6 |          0 |          1 |          7 |
+| e:\LocalSoftware\share\pybind11-2.11.1\docs\upgrade.rst                                     | reStructuredText |        394 |         22 |        151 |        567 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\attr.h                              | C++              |        419 |        143 |        129 |        691 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\buffer_info.h                       | C++              |        154 |         25 |         30 |        209 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\cast.h                              | C++              |      1,319 |        187 |        199 |      1,705 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\chrono.h                            | C++              |        162 |         31 |         33 |        226 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\common.h                            | C++              |          2 |          0 |          1 |          3 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\complex.h                           | C++              |         51 |          9 |         15 |         75 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\detail\class.h                      | C++              |        509 |        124 |        111 |        744 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\detail\common.h                     | C++              |        827 |        295 |        134 |      1,256 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\detail\descr.h                      | C++              |        129 |         17 |         26 |        172 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\detail\init.h                       | C++              |        320 |         70 |         45 |        435 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\detail\internals.h                  | C++              |        468 |        130 |         59 |        657 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\detail\type_caster_base.h           | C++              |        803 |        247 |        128 |      1,178 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\detail\typeid.h                     | C++              |         44 |         10 |         12 |         66 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\eigen.h                             | C++              |          2 |          8 |          3 |         13 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\eigen\common.h                      | C++              |          4 |          3 |          3 |         10 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\eigen\matrix.h                      | C++              |        511 |        119 |         85 |        715 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\eigen\tensor.h                      | C++              |        395 |         22 |        100 |        517 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\embed.h                             | C++              |        176 |        108 |         33 |        317 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\eval.h                              | C++              |        111 |         20 |         26 |        157 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\functional.h                        | C++              |         94 |         25 |         19 |        138 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\gil.h                               | C++              |        146 |         56 |         38 |        240 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\iostream.h                          | C++              |        138 |         97 |         31 |        266 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\numpy.h                             | C++              |      1,502 |        226 |        271 |      1,999 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\operators.h                         | C++              |        167 |         18 |         18 |        203 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\options.h                           | C++              |         54 |         16 |         23 |         93 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\pybind11.h                          | C++              |      2,140 |        444 |        307 |      2,891 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\pytypes.h                           | C++              |      1,853 |        416 |        289 |      2,558 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\stl.h                               | C++              |        357 |         27 |         64 |        448 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\stl\filesystem.h                    | C++              |         91 |         10 |         16 |        117 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\stl_bind.h                          | C++              |        662 |         70 |        120 |        852 |
+| e:\LocalSoftware\share\pybind11-2.11.1\include\pybind11\type_caster_pyobject_ptr.h          | C++              |         48 |          2 |         12 |         62 |
+| e:\LocalSoftware\share\pybind11-2.11.1\noxfile.py                                           | Python           |         85 |          0 |         23 |        108 |
+| e:\LocalSoftware\share\pybind11-2.11.1\pybind11\__init__.py                                 | Python           |         13 |          0 |          5 |         18 |
+| e:\LocalSoftware\share\pybind11-2.11.1\pybind11\__main__.py                                 | Python           |         50 |          2 |         11 |         63 |
+| e:\LocalSoftware\share\pybind11-2.11.1\pybind11\_version.py                                 | Python           |          8 |          0 |          5 |         13 |
+| e:\LocalSoftware\share\pybind11-2.11.1\pybind11\commands.py                                 | Python           |         28 |          0 |         10 |         38 |
+| e:\LocalSoftware\share\pybind11-2.11.1\pybind11\setup_helpers.py                            | Python           |        362 |         36 |        101 |        499 |
+| e:\LocalSoftware\share\pybind11-2.11.1\pyproject.toml                                       | toml             |         86 |          0 |         13 |         99 |
+| e:\LocalSoftware\share\pybind11-2.11.1\setup.cfg                                            | Properties       |         39 |          0 |          5 |         44 |
+| e:\LocalSoftware\share\pybind11-2.11.1\setup.py                                             | Python           |        110 |         12 |         29 |        151 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\conftest.py                                    | Python           |        154 |         10 |         58 |        222 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\constructor_stats.h                            | C++              |        223 |         80 |         20 |        323 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\cross_module_gil_utils.cpp                     | C++              |         74 |         15 |         20 |        109 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\cross_module_interleaved_error_already_set.cpp | C++              |         30 |         12 |         10 |         52 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\eigen_tensor_avoid_stl_array.cpp               | C++              |          5 |          6 |          4 |         15 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\env.py                                         | Python           |         20 |          1 |          7 |         28 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\extra_python_package\pytest.ini                | Ini              |          0 |          0 |          1 |          1 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\extra_python_package\test_files.py             | Python           |        233 |          2 |         57 |        292 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\extra_setuptools\pytest.ini                    | Ini              |          0 |          0 |          1 |          1 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\extra_setuptools\test_setuphelper.py           | Python           |        122 |          2 |         28 |        152 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\local_bindings.h                               | C++              |         66 |         13 |         14 |         93 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\object.h                                       | C++              |        119 |         47 |         40 |        206 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\pybind11_cross_module_tests.cpp                | C++              |         82 |         44 |         24 |        150 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\pybind11_tests.cpp                             | C++              |         82 |         25 |         17 |        124 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\pybind11_tests.h                               | C++              |         65 |          6 |         15 |         86 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\pytest.ini                                     | Ini              |         22 |          0 |          1 |         23 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\requirements.txt                               | pip requirements |          9 |          0 |          1 |         10 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_async.cpp                                 | C++              |         15 |          8 |          3 |         26 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_async.py                                  | Python           |         15 |          0 |         10 |         25 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_buffers.cpp                               | C++              |        206 |         21 |         33 |        260 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_buffers.py                                | Python           |        175 |          7 |         40 |        222 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_builtin_casters.cpp                       | C++              |        301 |         49 |         43 |        393 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_builtin_casters.py                        | Python           |        405 |         18 |        106 |        529 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_call_policies.cpp                         | C++              |         83 |         15 |         18 |        116 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_call_policies.py                          | Python           |        217 |          2 |         29 |        248 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_callbacks.cpp                             | C++              |        212 |         37 |         32 |        281 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_callbacks.py                              | Python           |        160 |          9 |         50 |        219 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_chrono.cpp                                | C++              |         41 |         25 |         16 |         82 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_chrono.py                                 | Python           |        124 |         23 |         59 |        206 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_class.cpp                                 | C++              |        499 |         70 |         89 |        658 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_class.py                                  | Python           |        351 |         23 |        112 |        486 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_cmake_build\embed.cpp                     | C++              |         18 |          0 |          6 |         24 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_cmake_build\main.cpp                      | C++              |          5 |          0 |          2 |          7 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_cmake_build\test.py                       | Python           |          5 |          0 |          4 |          9 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_const_name.cpp                            | C++              |         45 |          4 |          7 |         56 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_const_name.py                             | Python           |         26 |          0 |          4 |         30 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_constants_and_functions.cpp               | C++              |        109 |         26 |         20 |        155 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_constants_and_functions.py                | Python           |         40 |          0 |         17 |         57 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_copy_move.cpp                             | C++              |        423 |         73 |         38 |        534 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_copy_move.py                              | Python           |         93 |         10 |         30 |        133 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_custom_type_casters.cpp                   | C++              |        161 |         28 |         21 |        210 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_custom_type_casters.py                    | Python           |        101 |          4 |         18 |        123 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_custom_type_setup.cpp                     | C++              |         27 |          8 |          7 |         42 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_custom_type_setup.py                      | Python           |         32 |          3 |         14 |         49 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_docstring_options.cpp                     | C++              |        102 |          9 |         31 |        142 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_docstring_options.py                      | Python           |         28 |         18 |         19 |         65 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_eigen_matrix.cpp                          | C++              |        308 |         80 |         41 |        429 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_eigen_matrix.py                           | Python           |        648 |         29 |        131 |        808 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_eigen_tensor.cpp                          | C++              |          7 |          6 |          6 |         19 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_eigen_tensor.inl                          | C++              |        265 |          7 |         62 |        334 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_eigen_tensor.py                           | Python           |        228 |          3 |         58 |        289 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_embed\catch.cpp                           | C++              |         28 |          6 |         10 |         44 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_embed\external_module.cpp                 | C++              |         12 |          3 |          6 |         21 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_embed\test_interpreter.cpp                | C++              |        371 |         36 |         82 |        489 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_embed\test_interpreter.py                 | Python           |          9 |          0 |          6 |         15 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_embed\test_trampoline.py                  | Python           |         10 |          0 |          7 |         17 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_enum.cpp                                  | C++              |         94 |         22 |         18 |        134 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_enum.py                                   | Python           |        191 |         26 |         50 |        267 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_eval.cpp                                  | C++              |         84 |         13 |         22 |        119 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_eval.py                                   | Python           |         32 |          0 |         19 |         51 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_eval_call.py                              | Python           |          2 |          1 |          2 |          5 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_exceptions.cpp                            | C++              |        268 |         40 |         40 |        348 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_exceptions.h                              | C++              |          9 |          1 |          4 |         14 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_exceptions.py                             | Python           |        297 |         25 |         92 |        414 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_factory_constructors.cpp                  | C++              |        326 |         69 |         36 |        431 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_factory_constructors.py                   | Python           |        413 |          8 |         96 |        517 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_gil_scoped.cpp                            | C++              |        126 |          8 |         11 |        145 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_gil_scoped.py                             | Python           |        169 |          9 |         65 |        243 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_iostream.cpp                              | C++              |         83 |         18 |         26 |        127 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_iostream.py                               | Python           |        213 |          6 |         73 |        292 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_kwargs_and_defaults.cpp                   | C++              |        221 |         38 |         23 |        282 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_kwargs_and_defaults.py                    | Python           |        313 |         13 |         64 |        390 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_local_bindings.cpp                        | C++              |         56 |         33 |         18 |        107 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_local_bindings.py                         | Python           |        191 |         10 |         57 |        258 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_methods_and_attributes.cpp                | C++              |        388 |         50 |         56 |        494 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_methods_and_attributes.py                 | Python           |        411 |         13 |        110 |        534 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_modules.cpp                               | C++              |         95 |         17 |         14 |        126 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_modules.py                                | Python           |         81 |          9 |         27 |        117 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_multiple_inheritance.cpp                  | C++              |        259 |         51 |         32 |        342 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_multiple_inheritance.py                   | Python           |        361 |         12 |        121 |        494 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_numpy_array.cpp                           | C++              |        442 |         51 |         60 |        553 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_numpy_array.py                            | Python           |        506 |         37 |        126 |        669 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_numpy_dtypes.cpp                          | C++              |        523 |         32 |         60 |        615 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_numpy_dtypes.py                           | Python           |        349 |          9 |         83 |        441 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_numpy_vectorize.cpp                       | C++              |         66 |         27 |         15 |        108 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_numpy_vectorize.py                        | Python           |        242 |          1 |         24 |        267 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_opaque_types.cpp                          | C++              |         49 |         17 |         12 |         78 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_opaque_types.py                           | Python           |         44 |          0 |         15 |         59 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_operator_overloading.cpp                  | C++              |        215 |         32 |         35 |        282 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_operator_overloading.py                   | Python           |        123 |          2 |         27 |        152 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_pickling.cpp                              | C++              |        144 |         21 |         30 |        195 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_pickling.py                               | Python           |         65 |          9 |         20 |         94 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_pytypes.cpp                               | C++              |        659 |         57 |        108 |        824 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_pytypes.py                                | Python           |        715 |          6 |        178 |        899 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_sequences_and_iterators.cpp               | C++              |        476 |         45 |         61 |        582 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_sequences_and_iterators.py                | Python           |        190 |          2 |         61 |        253 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_smart_ptr.cpp                             | C++              |        335 |         72 |         64 |        471 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_smart_ptr.py                              | Python           |        248 |         11 |         57 |        316 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_stl.cpp                                   | C++              |        417 |         60 |         75 |        552 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_stl.py                                    | Python           |        287 |          3 |         92 |        382 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_stl_binders.cpp                           | C++              |        141 |         29 |         27 |        197 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_stl_binders.py                            | Python           |        259 |         19 |         78 |        356 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_tagbased_polymorphic.cpp                  | C++              |        111 |         15 |         22 |        148 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_tagbased_polymorphic.py                   | Python           |         26 |          0 |          3 |         29 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_thread.cpp                                | C++              |         37 |         14 |         16 |         67 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_thread.py                                 | Python           |         33 |          0 |         10 |         43 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_type_caster_pyobject_ptr.cpp              | C++              |        110 |          4 |         17 |        131 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_type_caster_pyobject_ptr.py               | Python           |         65 |          5 |         35 |        105 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_union.cpp                                 | C++              |         11 |          8 |          4 |         23 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_union.py                                  | Python           |          5 |          0 |          4 |          9 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_unnamed_namespace_a.cpp                   | C++              |         36 |          0 |          3 |         39 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_unnamed_namespace_a.py                    | Python           |         26 |          0 |          9 |         35 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_unnamed_namespace_b.cpp                   | C++              |         11 |          0 |          3 |         14 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_unnamed_namespace_b.py                    | Python           |          3 |          0 |          3 |          6 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_vector_unique_ptr_member.cpp              | C++              |         37 |          1 |         17 |         55 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_vector_unique_ptr_member.py               | Python           |          9 |          0 |          6 |         15 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_virtual_functions.cpp                     | C++              |        430 |         91 |         72 |        593 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tests\test_virtual_functions.py                      | Python           |        346 |         20 |         93 |        459 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tools\check-style.sh                                 | Shell Script     |         26 |         13 |          6 |         45 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tools\codespell_ignore_lines_from_errors.py          | Python           |         30 |          0 |         10 |         40 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tools\libsize.py                                     | Python           |         23 |          4 |         10 |         37 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tools\make_changelog.py                              | Python           |         47 |          1 |         15 |         63 |
+| e:\LocalSoftware\share\pybind11-2.11.1\tools\pyproject.toml                                 | toml             |          3 |          0 |          1 |          4 |
+| Total                                                                                       |                  |     44,700 |      6,183 |     10,594 |     61,477 |
++---------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
